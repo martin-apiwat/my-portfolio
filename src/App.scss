@@ -1,3 +1,22 @@
+.navbar {
+   background-color: rgba(128, 128, 128, 0.301);
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   ul {
+      gap: 20px;
+      display: flex;
+
+      li {
+         list-style: none;
+         display: flex;
+         cursor: pointer;
+      }
+   }
+}
+
 .welcome {
    display: flex;
    justify-content: center;
@@ -7,5 +26,20 @@
 
 .image-text {
    display: flex;
-   gap: 20px;
+   justify-content: center;
+   gap: 30px;
+
+   .about-me {
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+.languages {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
 }
