@@ -25,7 +25,10 @@ export default function App() {
             </div>
          </div>
          <div className="languages">
-            <h3>Typescript, React, Next, Node, Express, MongoDB, Sass, CSS</h3>
+            <h3>
+               TypeScript, JavaScript, React, Next, Node, Express, MongoDB,
+               Sass, CSS
+            </h3>
          </div>
       </div>
    );

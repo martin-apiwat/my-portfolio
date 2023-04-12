@@ -29,6 +29,10 @@
    justify-content: center;
    gap: 30px;
 
+   img {
+      border-radius: 20% 50%;
+   }
+
    .about-me {
       max-width: 500px;
       display: flex;
