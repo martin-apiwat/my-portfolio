@@ -30,6 +30,7 @@ export default function App() {
                Sass, CSS
             </h3>
          </div>
+         <div className="projects"></div>
       </div>
    );
 }
