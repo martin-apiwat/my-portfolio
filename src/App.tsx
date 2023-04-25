@@ -1,16 +1,11 @@
 import React from "react";
 import "./App.scss";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function App() {
    return (
       <div>
-         <div className="navbar">
-            <ul>
-               <li>About me</li>
-               <li>Projects</li>
-               <li>Contact</li>
-            </ul>
-         </div>
+         <Navbar />
          <div className="welcome">
             <h1>Welcome to my portfolio</h1>
          </div>

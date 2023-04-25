@@ -1,18 +1,30 @@
-.navbar {
-   background-color: rgba(128, 128, 128, 0.301);
-   height: 50px;
+.nav-container {
    display: flex;
    justify-content: center;
    align-items: center;
+   padding: 15px;
 
-   ul {
-      gap: 20px;
+   .navbar {
+      width: 80%;
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 15px;
+      border-bottom: 1.5px solid #242424;
+      font-weight: 200;
+      font-size: 14px;
 
-      li {
-         list-style: none;
-         display: flex;
+      .contact:hover,
+      li:hover {
+         color: white;
          cursor: pointer;
+         transition: color 0.4s ease;
+      }
+
+      ul {
+         display: flex;
+         list-style: none;
+         gap: 10px;
       }
    }
 }
