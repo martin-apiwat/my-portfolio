@@ -29,28 +29,19 @@
    }
 }
 
-.welcome {
+.image-text {
+   margin-top: 100px;
    display: flex;
    justify-content: center;
    align-items: center;
-   margin: 50px 0;
-}
-
-.image-text {
-   display: flex;
-   justify-content: center;
-   gap: 30px;
+   flex-direction: column;
+   text-align: center;
+   gap: 20px;
 
    img {
-      border-radius: 20% 50%;
-   }
-
-   .about-me {
-      max-width: 500px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
    }
 }
 
